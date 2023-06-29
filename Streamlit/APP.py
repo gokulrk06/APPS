@@ -33,10 +33,10 @@ with st.sidebar:
         Status_oc=st.text_input("Status ",0)
         Remarks =st.text_input("Remarks")
         conn=mysql.connector.connect(
-        host="sql12.freemysqlhosting.net",
-        user="sql12628843",
-        password='tEVtIWSk1S',
-        database="sql12628843" 
+        host="server ",
+        user="userid",
+        password='password',
+        database="database" 
         )
         cursor=conn.cursor()
         selectquery="select * from Warehouse"
